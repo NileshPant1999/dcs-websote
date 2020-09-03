@@ -448,7 +448,7 @@ Hero
     left: 65%;
     right: 0;
     bottom: 0;
-    background: var(--clr-white);
+    background: var(--clr-primary-10);
   }
   .hero-center {
     grid-template-columns: repeat(12, 1fr);
@@ -604,9 +604,9 @@ Jobs
 }
 @media screen and (min-width: 992px) {
   .jobs-center {
-    width: 90vw;
+    width: 70vw;
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 180px 1fr;
     column-gap: 4rem;
   }
   .btn-container {
